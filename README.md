@@ -1,2 +1,9 @@
-# color_reproducibility_for_smartphones
+# Color reproducibility for smartphones
 Python repository for color reproducibility techniques for smartphones.
+
+Here goes the description
+.
+.
+.
+.
+.
