@@ -4,7 +4,7 @@
 
 Python repository for color reproducibility techniques for smartphones.
 
-- [Go to Real Cool Heading section](## Link)
+- [Go to Link to Binder](#-link-to-binder)
 
 The techniques exposed in this repository have been detailed in the scientific paper: [cita] where blablabla
 Here goes the description:
