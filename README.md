@@ -16,6 +16,10 @@
 
 <p align="justify">It can also represent each color measurement in the RGB color space:</p> 
 
+
+
+
+
 ![2](https://user-images.githubusercontent.com/102466458/160288131-00620f08-b8af-496a-ba20-e79ec11c4940.jpg)
 
 <p align="justify">**Figure 2.** 3D representation of 55 colors samples in the RGB color space. The plots represent, from left to right, the RGB values of the color samples measured with a Smartphone, the referenced values and the corrected RGB values after the algorithm is applied.</p> 
@@ -25,7 +29,13 @@
 
 
 
-![394646_1_En_8_Fig3_HTML](https://user-images.githubusercontent.com/102466458/160288160-07edd717-50d3-40f8-9250-0d6dd6dbf4d5.gif)![cct-xy](https://user-images.githubusercontent.com/102466458/160288588-dd82ccd5-5f85-4f3c-aff7-405ebf7a3bc4.jpg)
+<p align="left">
+  <img 
+    width="500"
+    height="500"
+    src="https://user-images.githubusercontent.com/102466458/160288160-07edd717-50d3-40f8-9250-0d6dd6dbf4d5.gif"
+  >
+</p>
 
 
 
