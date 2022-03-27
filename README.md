@@ -3,6 +3,7 @@ Python repository for color reproducibility techniques for smartphones.
 
 The techniques exposed in this repository have been detailed in the scientific paper: [cita] where blablabla
 
+![joyce-mccown-1Q4TjXPlrVQ-unsplash](https://user-images.githubusercontent.com/102466458/160279594-81e1f34a-e6f2-4660-b90e-1b836306595a.jpg)
 
 
 Here goes the description:
