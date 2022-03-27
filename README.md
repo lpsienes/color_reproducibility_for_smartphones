@@ -1,13 +1,8 @@
 # Color reproducibility for smartphones
 
+![image (1)](https://user-images.githubusercontent.com/102466458/160293380-1e0a1d7b-6457-475e-8a1e-9369e4257fbc.jpg)
 
-<p align="center">
-  <img 
-    width="1000"
-    height="100"
-    src="https://user-images.githubusercontent.com/102466458/160293262-cd5b7fc7-4b30-4367-9569-f0f77baeaeda.jpg"
-  >
-</p>
+
 
 
 <p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® was the programming language used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.</p> 
