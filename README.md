@@ -2,7 +2,7 @@
 
 ![image (2)](https://user-images.githubusercontent.com/102466458/160293696-27c1b33d-35d0-4a08-823e-1acd7b894274.jpg)
 
-<p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® programming language was used in order to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.</p> 
+<p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® programming language was used in order to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut so it can be applied to (bio)chemical quantitative determinations, making the measurements comparable between devices.</p> 
 
 - [Getting Started](Getting-Started)
 - [Estructure of the program](#Estructure-of-the-program)
@@ -11,9 +11,12 @@
 
 # Getting Started
 
-<p align="justify">In a (bio)chemical quantitative determination, a certain concentration of dye dispersed or dissolved in a specific support (cellulose sheet, paper strips, etc) is associated with a specific color, since it corresponds to a specific concentration of dye, that is, an RGB value. Therefore, any chemical or biochemical colorimetric reaction can be traced with any device capable of taking a digital image[1,2]. However, as our own experience has suggested in various experiments [3-5], digital image colorimetry (DIC) is subjected to a series of variables [6] such as: intensity of the light source used for the measurements, type of illuminant, devices sensor, etc. All of these variables make the color measurements not comparable among different devices and induce to systematical errors. That is why all the possibilities of the DIC for color-based control test have not yet been exploited.</p> 
+<p align="justify">In a (bio)chemical quantitative determination, a certain concentration of dye dispersed or dissolved in a specific support (cellulose sheet, paper strips, etc) is associated with a specific color, since it corresponds to a specific concentration of dye, that is, an RGB value. Therefore, any chemical or biochemical colorimetric reaction can be traced with any device capable of taking a digital image[1,2]. However, as our own experience has suggested in various experiments [3-5], digital image colorimetry (DIC) is subjected to a series of variables [6] such as: intensity of the light source used for the measurements, type of illuminant, devices sensor, etc. All of these variables make the color measurements not comparable among different devices and induce to systematical errors. That is why all the possibilities of the DIC for color-based control tests have not yet been exploited.</p> 
 
-<p align="justify">What is intended with this program is to solve some of this problems in order make color measurements between digital devices comparable,applying color theory for these corrections[7,8]. To do so a simple Python® code will be used in order to generate two matrices so the color values given by the device and the referenced ones can be adjust by means of lineal regression, correcting the measurement through the standardization of the light wave composition of the light source used and its intensity.</p> 
+<p align="justify">What is intended with this program is to solve some of this problems in order make color measurements between digital devices comparable,applying color theory for these corrections[7,8]. To do so a simple Python® code will generate two matrices so the color values given by the device and the referenced ones can be adjust by means of lineal regression, correcting the measurement through the standardization of the light wave composition of the light source used and its intensity.This program is intended to be used with JPEG image format, which uses sRGB color space, and D65 as the reference illuminant but it can be used in any image format with any illuminant as long the RGB reference values are well known.</p> 
+
+<p align="justify">To work with this program, two csv files are necessary: one with the referenced RGB values of the samples and another with the RGB measurements taken with our device.Once the files are uploaded, all you have to do is [run the code](#Link-to-Binder) and collect the results. (Make sure that the samples correspond to the reference values and that there are the same number of samples in both csvs).</p> 
+
 
 # Estructure of the program
 
