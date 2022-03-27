@@ -11,9 +11,11 @@
 
 # Getting Started
 
-<p align="justify">In a quantitative determination, a certain concentration of dye dispersed or dissolved in a specific support (cellulose sheet, paper strips, etc) is associated with a specific color, since it corresponds to a specific concentration of dye, that is, an RGB value. Therefore, any chemical or biochemical colorimetric reaction can be traced with a smartphone. However, as our own experience has suggested in various experiments [1-3], digital image colorimetry (DIC) is subjected to a series of variables [4] such as: intensity of the light source used for the measurements, type of illuminant, DSCs sensor, etc. All of these variables make the color measurements not comparable among different mobile devices and induce to systematical errors. That is why all the possibilities of the DIC for color-based control test have not yet been exploited.</p> 
+<p align="justify">In a quantitative determination, a certain concentration of dye dispersed or dissolved in a specific support (cellulose sheet, paper strips, etc) is associated with a specific color, since it corresponds to a specific concentration of dye, that is, an RGB value. Therefore, any chemical or biochemical colorimetric reaction can be traced with a smartphone[1,2]. However, as our own experience has suggested in various experiments [3-5], digital image colorimetry (DIC) is subjected to a series of variables [6] such as: intensity of the light source used for the measurements, type of illuminant, DSCs sensor, etc. All of these variables make the color measurements not comparable among different mobile devices and induce to systematical errors. That is why all the possibilities of the DIC for color-based control test have not yet been exploited.</p> 
 
-What is intended with this program is to solve some of this problems in order make color measurements between digital devices comparable.
+<p align="justify">What is intended with this program is to solve some of this problems in order make color measurements between digital devices comparable,applying color theory for these corrections[7,8]. To do so a simple Python® code will be used in order to generate two matrices so the color values given by the device and the referenced ones can be adjust by means of lineal regression, correcting the measurement through the standardization of the light wave composition of the light source used and its intensity.</p> 
+
+. 
 
 # Estructure of the program
 
@@ -39,34 +41,28 @@ What is intended with this program is to solve some of this problems in order ma
 
 ![9](https://user-images.githubusercontent.com/102466458/160299738-2193fc7b-82c9-4819-934e-6dcbe978061b.jpg)![10](https://user-images.githubusercontent.com/102466458/160299741-c3fc78e0-7491-4964-bda1-58947ab40856.jpg)![11](https://user-images.githubusercontent.com/102466458/160299743-d1d4610a-9ccf-4e1b-9f29-3e5a2f7dd80f.jpg)
 
-<p align="justify">The program includes the option to calculate the correlated color temperature (CCT) of a sample with its CIE XYZ values. It is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity. This method was described and developed by A. R. Robertson [1]. The correlated color temperature is usually represented in the CIE xy color space as shown in the next figure:</p> 
+<p align="justify">The program includes the option to calculate the correlated color temperature (CCT) of a sample introducing its CIE XYZ values on the program.  The CCT is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity. This method was described and developed by A. R. Robertson [9]. The correlated color temperature is usually represented in the CIE xy color space as shown in the next figure:</p> 
 
 ![12](https://user-images.githubusercontent.com/102466458/160299846-cd657cf7-d5da-496e-b0ac-0bc6277f5db6.jpg)
 
 <p align="left">
   <img 
-    width="500"
-    height="500"
+    width="400"
+    height="400"
     src="https://user-images.githubusercontent.com/102466458/160288160-07edd717-50d3-40f8-9250-0d6dd6dbf4d5.gif"
   >
 </p>
 
 # References
-1. De Marcos, S., Sanz-Vicente, I., López-Molinero, Á., Camacho-Aguayo,J., Dominguez, M., Cebrián, P., Navarro,. J., Martín-Barreiro, A. & Galbán, J. (2021). Enzymatic biosensors based on in-situ generation of gold nanomaterials: an alternative to classic enzymatic methods. Available online: https://www.seqa.es/ActualidadAnalitica/AA_75/015.pdf (accessed on 1 March 2022).
-2. Oliver, S., de Marcos, S., Sanz-Vicente, I., Cebolla, V., & Galbán, J. (2021). Direct minimally invasive enzymatic determination of tyramine in cheese using digital imaging. Analytica Chimica Acta, 1164, 338489.
-3. Sanz-Vicente, I., López-Molinero, Á., de Marcos, S., Navarro, J., Cebrián, P., Arruego, C., ... & Galbán, J. (2020). Smartphone-interrogated test supports for the enzymatic determination of putrescine and cadaverine in food. Analytical and bioanalytical chemistry, 412, 4261-4271.
-4. Fan, Y., Li, J., Guo, Y., Xie, L., & Zhang, G. (2021). Digital image colorimetry on smartphone for chemical analysis: A re-view. Measurement, 171, 108829.
-
-1.Robertson, A. R. (1968). Computation of correlated color temperature and distribution temperature. JOSA, 58(11), 1528-1535.
-
-5. Quesada-González, D., & Merkoçi, A. (2017). Mobile phone-based biosensing: An emerging “diagnostic and communication” technology. Biosensors and Bioelectronics, 92, 549-562.
-6. Kim, J., Leksikov, S., Thamjamrassri, P., Lee, U., & Suk, H. J. (2015, August). Crowdcolor: Crowdsourcing color perceptions using mobile devices. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (pp. 478-483).
-7. Ibraheem, N. A., Hasan, M. M., Khan, R. Z., & Mishra, P. K. (2012). Understanding color models: a review. ARPN Journal of science and technology, 2(3), 265-275.
-8. Schelkens, P., Skodras, A., & Ebrahimi, T. (Eds.). (2009). The JPEG 2000 suite. John Wiley & Sons.
-9. International Organization for Standardization. (2009). Graphic technology and photography-Viewing conditions. ISO.
-10. International Color Consortium. (2004). Image technology colour management-Architecture, profile format, and data structure. Specification ICC. 1: 2004-10 (Profile version 4.2. 0.0).
-11.	Wyszecki, G., & Stiles, W. S. (1982). Color science: Concepts and Methods, Quantitative Data and Formulae (Second Edition). New York: Wiley.11-27,51-66,83-93,119-154,429-439.
-
+1. Quesada-González, D., & Merkoçi, A. (2017). Mobile phone-based biosensing: An emerging “diagnostic and communication” technology. Biosensors and Bioelectronics, 92, 549-562.
+2. Kim, J., Leksikov, S., Thamjamrassri, P., Lee, U., & Suk, H. J. (2015, August). Crowdcolor: Crowdsourcing color perceptions using mobile devices. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (pp. 478-483)
+3. De Marcos, S., Sanz-Vicente, I., López-Molinero, Á., Camacho-Aguayo,J., Dominguez, M., Cebrián, P., Navarro,. J., Martín-Barreiro, A. & Galbán, J. (2021). Enzymatic biosensors based on in-situ generation of gold nanomaterials: an alternative to classic enzymatic methods. Available online: https://www.seqa.es/ActualidadAnalitica/AA_75/015.pdf (accessed on 1 March 2022).
+4. Oliver, S., de Marcos, S., Sanz-Vicente, I., Cebolla, V., & Galbán, J. (2021). Direct minimally invasive enzymatic determination of tyramine in cheese using digital imaging. Analytica Chimica Acta, 1164, 338489.
+5. Sanz-Vicente, I., López-Molinero, Á., de Marcos, S., Navarro, J., Cebrián, P., Arruego, C., ... & Galbán, J. (2020). Smartphone-interrogated test supports for the enzymatic determination of putrescine and cadaverine in food. Analytical and bioanalytical chemistry, 412, 4261-4271.
+6. Fan, Y., Li, J., Guo, Y., Xie, L., & Zhang, G. (2021). Digital image colorimetry on smartphone for chemical analysis: A re-view. Measurement, 171, 108829.
+7. International Color Consortium. (2004). Image technology colour management-Architecture, profile format, and data structure. Specification ICC. 1: 2004-10 (Profile version 4.2. 0.0).
+8.	Wyszecki, G., & Stiles, W. S. (1982). Color science: Concepts and Methods, Quantitative Data and Formulae (Second Edition). New York: Wiley.11-27,51-66,83-93,119-154,429-439.
+9.Robertson, A. R. (1968). Computation of correlated color temperature and distribution temperature. JOSA, 58(11), 1528-1535.
 
 # Link to Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lpsienes/color_reproducibility_for_smartphones/main)
