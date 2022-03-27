@@ -2,7 +2,7 @@
 
 ![1](https://user-images.githubusercontent.com/102466458/160279753-355058f4-3527-4d39-8977-8fcc45d496b7.jpg)
 
-This repository shows the algorithm and methodology implemented on the scientific article:. Python® was the programming language used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.
+This repository shows the algorithm and methodology implemented on the scientific article:[Titulo](). Python® was the programming language used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.
 
 - [Getting Started](#Getting-Started)
 - [Examples of the program](#Examples-of-the-program)
