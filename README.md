@@ -36,4 +36,4 @@ of gold nanomaterials: an alternative to classic enzymatic methods. Available on
 10.	International Organization for Standardization. (2009). Graphic technology and photography-Viewing conditions. ISO.
 
 # Link to Binder
-![Binder][(https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lpsienes/color_reproducibility_for_smartphones/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lpsienes/color_reproducibility_for_smartphones/main)
