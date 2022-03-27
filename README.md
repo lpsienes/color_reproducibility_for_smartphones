@@ -5,11 +5,14 @@
 Python repository for color reproducibility techniques for smartphones.
 
 - [Getting Started](#-Getting-Started)
+- [Examples of the program](#-Examples-of-the-program)
 - [Go to Link to Binder](#-Link-to-Binder)
+- [References](#-References)
 
 
 # Getting Started
 
+# Examples of the program
 The techniques exposed in this repository have been detailed in the scientific paper: [cita] where blablabla
 Here goes the description:
 
@@ -21,3 +24,5 @@ You can describe the repository, i.e.:
 # Link to Binder
 ## Link
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lpsienes/color_reproducibility_for_smartphones/main)
+
+# References
