@@ -4,7 +4,7 @@
 
 <p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® programming language was used in order to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut so it can be applied to (bio)chemical quantitative determinations, making the measurements comparable between devices.</p> 
 
-- [Getting Started](Getting-Started)
+- [Getting Started](#Getting-Started)
 - [Estructure of the program](#Estructure-of-the-program)
 - [References](#References)
 - [Link to Binder](#Link-to-Binder)
