@@ -3,10 +3,7 @@
 
 ![image (2)](https://user-images.githubusercontent.com/102466458/160293696-27c1b33d-35d0-4a08-823e-1acd7b894274.jpg)
 
-
-
-
-<p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® was the programming language used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.</p> 
+<p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® programming language was used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.</p> 
 
 - [Getting Started](#Getting-Started)
 - [Examples of the program](#Examples-of-the-program)
@@ -15,7 +12,15 @@
 
 # Getting Started
 
-# Examples of the program
+# Estructure of the program
+
+<p align="justify">The first part of the program displays the RGB values of the csv archives as shown on the next table:</p> 
+
+| R  | G | B |  |  | R  | G | B |  |
+| ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  |First Header  | Second Header |
+| Content Cell  | Content Cell  |First Header  | Second Header |
+
 
 <p align="justify">It can also represent each color measurement in the RGB color space:</p> 
 
