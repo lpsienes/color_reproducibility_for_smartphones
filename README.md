@@ -5,7 +5,8 @@ The techniques exposed in this repository have been detailed in the scientific p
 
 
 
-![1](https://user-images.githubusercontent.com/102466458/160279665-a788bedd-6447-44ef-af5b-cefb3979d355.jpg)
+![1](https://user-images.githubusercontent.com/102466458/160279712-a6dd7e30-e054-4bc7-b601-95e9d6a0de6a.jpg)
+
 
 Here goes the description:
 
