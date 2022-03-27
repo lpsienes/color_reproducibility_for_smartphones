@@ -1,8 +1,9 @@
 # Color reproducibility for smartphones
 
-![1](https://user-images.githubusercontent.com/102466458/160279753-355058f4-3527-4d39-8977-8fcc45d496b7.jpg)
+![1](https://user-images.githubusercontent.com/102466458/160288119-be1b284a-785b-43bf-b8b7-8909af8c677e.jpg)
 
-This repository shows the algorithm and methodology implemented on the scientific article:[Titulo](). Python® was the programming language used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.
+
+This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® was the programming language used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system. 
 
 - [Getting Started](#Getting-Started)
 - [Examples of the program](#Examples-of-the-program)
@@ -12,9 +13,33 @@ This repository shows the algorithm and methodology implemented on the scientifi
 # Getting Started
 
 # Examples of the program
-![2](https://user-images.githubusercontent.com/102466458/160286278-8d890dc5-50ce-4005-907c-5a7e1286d8a5.jpg)
-Figure 2. 3D Representation of 55 colors samples in the RGB color space. The plots represent, from left to right, the RGB values of the color samples measured with a Smartphone, the referenced values and the corrected RGB values after the algorithm is applied.
+
+It can also represent each color measurement in the RGB color space:
+
+![2](https://user-images.githubusercontent.com/102466458/160288131-00620f08-b8af-496a-ba20-e79ec11c4940.jpg)
+
+**Figure 2.** 3D representation of 55 colors samples in the RGB color space. The plots represent, from left to right, the RGB values of the color samples measured with a Smartphone, the referenced values and the corrected RGB values after the algorithm is applied.
+
+
+The program includes the option to calculate the correlated color temperature (CCT) of a sample with its CIE XYZ values. This method was described and developed by A. R. Robertson[1] The correlated color temperature is usually represented in the CIE xy color space as shown in Figure 3:
+
+
+
+![394646_1_En_8_Fig3_HTML](https://user-images.githubusercontent.com/102466458/160288160-07edd717-50d3-40f8-9250-0d6dd6dbf4d5.gif)
+
+
+
+
+**Figure 3.** Correlated color temperature (CCT) is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity.
+
+
+
+
+
 # References
+1.Robertson, A. R. (1968). Computation of correlated color temperature and distribution temperature. JOSA, 58(11), 1528-1535.
+
+
 1. De Marcos, S., Sanz-Vicente, I., López-Molinero, Á., Camacho-Aguayo,J., Dominguez, M., Cebrián, P., Navarro,. J., Martín-Barreiro, A. & Galbán, J. (2021). Enzymatic biosensors based on in-situ generation of gold nanomaterials: an alternative to classic enzymatic methods. Available online: https://www.seqa.es/ActualidadAnalitica/AA_75/015.pdf (accessed on 1 March 2022).
 2. Oliver, S., de Marcos, S., Sanz-Vicente, I., Cebolla, V., & Galbán, J. (2021). Direct minimally invasive enzymatic determination of tyramine in cheese using digital imaging. Analytica Chimica Acta, 1164, 338489.
 3. Sanz-Vicente, I., López-Molinero, Á., de Marcos, S., Navarro, J., Cebrián, P., Arruego, C., ... & Galbán, J. (2020). Smartphone-interrogated test supports for the enzymatic determination of putrescine and cadaverine in food. Analytical and bioanalytical chemistry, 412, 4261-4271.
