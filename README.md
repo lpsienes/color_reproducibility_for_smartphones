@@ -15,8 +15,6 @@
 
 <p align="justify">What is intended with this program is to solve some of this problems in order make color measurements between digital devices comparable,applying color theory for these corrections[7,8]. To do so a simple Python® code will be used in order to generate two matrices so the color values given by the device and the referenced ones can be adjust by means of lineal regression, correcting the measurement through the standardization of the light wave composition of the light source used and its intensity.</p> 
 
-. 
-
 # Estructure of the program
 
 <p align="justify">The first part of the program displays the RGB values of the csv archives as shown on the next table:</p> 
