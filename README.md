@@ -30,7 +30,7 @@
 
 
 
-**Figure 3.** <p align="justify">Correlated color temperature (CCT) is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity
+<p align="justify">**Figure 3.**Correlated color temperature (CCT) is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity
 
 
 
