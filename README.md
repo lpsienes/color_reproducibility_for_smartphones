@@ -3,7 +3,7 @@
 ![1](https://user-images.githubusercontent.com/102466458/160288119-be1b284a-785b-43bf-b8b7-8909af8c677e.jpg)
 
 
-This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® was the programming language used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system. 
+<p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® was the programming language used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.</p> 
 
 - [Getting Started](#Getting-Started)
 - [Examples of the program](#Examples-of-the-program)
@@ -14,14 +14,14 @@ This repository shows the algorithm and methodology implemented on the scientifi
 
 # Examples of the program
 
-It can also represent each color measurement in the RGB color space:
+<p align="justify">It can also represent each color measurement in the RGB color space:</p> 
 
 ![2](https://user-images.githubusercontent.com/102466458/160288131-00620f08-b8af-496a-ba20-e79ec11c4940.jpg)
 
 **Figure 2.** 3D representation of 55 colors samples in the RGB color space. The plots represent, from left to right, the RGB values of the color samples measured with a Smartphone, the referenced values and the corrected RGB values after the algorithm is applied.
 
 
-The program includes the option to calculate the correlated color temperature (CCT) of a sample with its CIE XYZ values. This method was described and developed by A. R. Robertson[1] The correlated color temperature is usually represented in the CIE xy color space as shown in Figure 3:
+<p align="justify">The program includes the option to calculate the correlated color temperature (CCT) of a sample with its CIE XYZ values. This method was described and developed by A. R. Robertson[1] The correlated color temperature is usually represented in the CIE xy color space as shown in Figure 3:</p> 
 
 
 
