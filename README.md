@@ -5,14 +5,14 @@
 
 <p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® programming language was used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.</p> 
 
-1.[Getting Started](Getting-Started)
-2.[Examples of the program](#Examples-of-the-program)
-3.[ References](#References)
-4.[ Link to Binder](#Link-to-Binder)
+- [Getting Started](Getting-Started)
+- [Estructure of the program](#Estructure-of-the-program)
+- [ References](#References)
+- [ Link to Binder](#Link-to-Binder)
 
 # Getting Started
 
-# Estructure of the program
+2. # Estructure of the program
 
 1. <p align="justify">The first part of the program displays the RGB values of the csv archives as shown on the next table:</p> 
 
