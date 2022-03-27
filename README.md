@@ -1,6 +1,7 @@
 # Color reproducibility for smartphones
 
-![image (1)](https://user-images.githubusercontent.com/102466458/160293380-1e0a1d7b-6457-475e-8a1e-9369e4257fbc.jpg)
+
+![image (2)](https://user-images.githubusercontent.com/102466458/160293696-27c1b33d-35d0-4a08-823e-1acd7b894274.jpg)
 
 
 
