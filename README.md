@@ -30,19 +30,23 @@
 <p align="justify">Then, the program generates two matrices two matrices to adjust the color values given by the device to the referenced ones by means of lineal regression, correcting the measurement through the standardization of the light wave composition of the light source used and its intensity. The correlation factor of the new RGB values and the referenced ones it is also displayed:</p> 
 
 
-<p align="center">
-  <img 
-    width="400"
-    height="120"
-    src="https://user-images.githubusercontent.com/102466458/160298626-de834346-60c5-4d64-beb6-5a1e67cde2fe.jpg"
-  >
-</p>
-
-
+|Correction Matrices||Corrected|
+|:-:|:-:|:-:|
+|<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160299029-70d6de61-ce08-440c-a603-23189d454407.jpg)</td></table>|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table><tr><th>R</th><th>G</th><th>B</th></tr><tr><td>151</td><td>159</td><td>83</td></tr><tr><td>159</td><td>144</td><td>85</td></tr><tr><td>157</td><td>141</td><td>54</td></tr><tr><td>171</td><td>172</td><td>151</td></tr><tr><td>133</td><td>125</td><td>96</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|
 
 <p align="justify">It can also represent each color measurement in the RGB color space:</p> 
 
-**Figure 2.**<p align="justify"> 3D representation of 55 colors samples in the RGB color space. The plots represent, from left to right, the RGB values of the color samples measured with a Smartphone, the referenced values and the corrected RGB values after the algorithm is applied.</p> 
+
+|R Channel Error|Green Channel Error|Blue Channel Error||
+|:-:|:-: |:-:|:-:|
+|<table></table>|<table></table>|<table></table>|<table><p align="justify">Figure 2. 3D representation of 55 colors samples in the RGB color space. The plots represent, from left to right, the RGB values of the color samples measured with a Smartphone, the referenced values and the corrected RGB values after the algorithm is applied.</p></table>|
+
+
+
+
+
+
+
 
 
 <p align="justify">The program includes the option to calculate the correlated color temperature (CCT) of a sample with its CIE XYZ values. This method was described and developed by A. R. Robertson [1] The correlated color temperature is usually represented in the CIE xy color space as shown in Figure 3:</p> 
