@@ -54,11 +54,11 @@
 
 
 
-<p align="justify">It can also represent each color measurement in the RGB color space:</p> 
+<p align="justify">Then, three plots of the RGB values (Sample, Reference and Prediction) will be displayer on the RGB color space:</p> 
 
 ![9](https://user-images.githubusercontent.com/102466458/160299738-2193fc7b-82c9-4819-934e-6dcbe978061b.jpg)![10](https://user-images.githubusercontent.com/102466458/160299741-c3fc78e0-7491-4964-bda1-58947ab40856.jpg)![11](https://user-images.githubusercontent.com/102466458/160299743-d1d4610a-9ccf-4e1b-9f29-3e5a2f7dd80f.jpg)
 
-<p align="justify">The program includes the option to calculate the correlated color temperature (CCT) of a sample introducing its CIE XYZ values on the program.  The CCT is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity. This method was described and developed by A. R. Robertson [9]. The correlated color temperature is usually represented in the CIE xy color space as shown in the next figure:</p> 
+<p align="justify">The last part of the program includes the option to calculate the correlated color temperature (CCT) of a sample introducing its CIE XYZ manually.  The CCT is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity. This method was described and developed by A. R. Robertson [9]. The correlated color temperature is usually represented in the CIE xy color space as shown in the next figure:</p> 
 
 ![12](https://user-images.githubusercontent.com/102466458/160299846-cd657cf7-d5da-496e-b0ac-0bc6277f5db6.jpg)
 
