@@ -12,7 +12,7 @@
 
 # Getting Started
 
-2. # Estructure of the program
+# 2. Estructure of the program
 
 1. <p align="justify">The first part of the program displays the RGB values of the csv archives as shown on the next table:</p> 
 
