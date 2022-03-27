@@ -4,6 +4,8 @@
 
 Python repository for color reproducibility techniques for smartphones.
 
+- [Go to Real Cool Heading section](## Link)
+
 The techniques exposed in this repository have been detailed in the scientific paper: [cita] where blablabla
 Here goes the description:
 
@@ -12,6 +14,6 @@ You can describe the repository, i.e.:
 - In the folder named "Notebooks" you will find the jupyter notebooks where blablabla
 
 
-
-
+# Link to Binder
+## Link
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lpsienes/color_reproducibility_for_smartphones/main)
