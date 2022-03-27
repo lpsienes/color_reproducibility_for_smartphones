@@ -16,10 +16,9 @@
 
 <p align="justify">The first part of the program displays the RGB values of the csv archives as shown on the next table:</p> 
 
-| R  | G | B |  |  | R  | G | B |  |
-| ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  |First Header  | Second Header |
-| Content Cell  | Content Cell  |First Header  | Second Header |
+|Measurements|References|
+|---|---|
+|<table> <tr><th>R</th><th>G</th><th>B</th></tr><tr><td>Row 1 Column 1</td><td>Row 1 Column 2</td><td>Row 1 Column 2</td></tr> </table>| <table> <tr><th>Table 2 Heading 1</th><th>Table 2 Heading 2</th></tr><tr><td>Row 1 Column 1</td><td>Row 1 Column 2</td></tr> </table>|
 
 
 <p align="justify">It can also represent each color measurement in the RGB color space:</p> 
