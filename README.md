@@ -2,7 +2,7 @@
 
 ![image (2)](https://user-images.githubusercontent.com/102466458/160293696-27c1b33d-35d0-4a08-823e-1acd7b894274.jpg)
 
-<p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® programming language was used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.</p> 
+<p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® programming language was used in order to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.</p> 
 
 - [Getting Started](Getting-Started)
 - [Estructure of the program](#Estructure-of-the-program)
@@ -11,7 +11,7 @@
 
 # Getting Started
 
-<p align="justify">In a quantitative determination, a certain concentration of dye dispersed or dissolved in a specific support (cellulose sheet, paper strips, etc) is associated with a specific color, since it corresponds to a specific concentration of dye, that is, an RGB value. Therefore, any chemical or biochemical colorimetric reaction can be traced with a smartphone[1,2]. However, as our own experience has suggested in various experiments [3-5], digital image colorimetry (DIC) is subjected to a series of variables [6] such as: intensity of the light source used for the measurements, type of illuminant, DSCs sensor, etc. All of these variables make the color measurements not comparable among different mobile devices and induce to systematical errors. That is why all the possibilities of the DIC for color-based control test have not yet been exploited.</p> 
+<p align="justify">In a (bio)chemical quantitative determination, a certain concentration of dye dispersed or dissolved in a specific support (cellulose sheet, paper strips, etc) is associated with a specific color, since it corresponds to a specific concentration of dye, that is, an RGB value. Therefore, any chemical or biochemical colorimetric reaction can be traced with any device capable of taking a digital image[1,2]. However, as our own experience has suggested in various experiments [3-5], digital image colorimetry (DIC) is subjected to a series of variables [6] such as: intensity of the light source used for the measurements, type of illuminant, devices sensor, etc. All of these variables make the color measurements not comparable among different devices and induce to systematical errors. That is why all the possibilities of the DIC for color-based control test have not yet been exploited.</p> 
 
 <p align="justify">What is intended with this program is to solve some of this problems in order make color measurements between digital devices comparable,applying color theory for these corrections[7,8]. To do so a simple Python® code will be used in order to generate two matrices so the color values given by the device and the referenced ones can be adjust by means of lineal regression, correcting the measurement through the standardization of the light wave composition of the light source used and its intensity.</p> 
 
