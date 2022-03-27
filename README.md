@@ -5,14 +5,14 @@
 
 <p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® programming language was used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.</p> 
 
-[1. Getting Started](Getting-Started)
-[2. Examples of the program](#Examples-of-the-program)
-[3. References](# 3. References)
-[4. Link to Binder](#-4.-Link-to-Binder)
+1.[Getting Started](Getting-Started)
+2.[Examples of the program](#Examples-of-the-program)
+3.[ References](#References)
+4.[ Link to Binder](#Link-to-Binder)
 
-# 1. Getting Started
+# Getting Started
 
-# 2. Estructure of the program
+# Estructure of the program
 
 1. <p align="justify">The first part of the program displays the RGB values of the csv archives as shown on the next table:</p> 
 
@@ -54,7 +54,7 @@
 
 
 
-# 3. References
+# References
 1.Robertson, A. R. (1968). Computation of correlated color temperature and distribution temperature. JOSA, 58(11), 1528-1535.
 
 
@@ -71,5 +71,5 @@
 11.	Wyszecki, G., & Stiles, W. S. (1982). Color science: Concepts and Methods, Quantitative Data and Formulae (Second Edition). New York: Wiley.11-27,51-66,83-93,119-154,429-439.
 
 
-# 4. Link to Binder
+# Link to Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lpsienes/color_reproducibility_for_smartphones/main)
