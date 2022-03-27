@@ -1,6 +1,5 @@
 # Color reproducibility for smartphones
 
-
 ![image (2)](https://user-images.githubusercontent.com/102466458/160293696-27c1b33d-35d0-4a08-823e-1acd7b894274.jpg)
 
 <p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® programming language was used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.</p> 
@@ -12,6 +11,10 @@
 
 # Getting Started
 
+<p align="justify">In a quantitative determination, a certain concentration of dye dispersed or dissolved in a specific support (cellulose sheet, paper strips, etc) is associated with a specific color, since it corresponds to a specific concentration of dye, that is, an RGB value. Therefore, any chemical or biochemical colorimetric reaction can be traced with a smartphone. However, as our own experience has suggested in various experiments [1-3], digital image colorimetry (DIC) is subjected to a series of variables [4] such as: intensity of the light source used for the measurements, type of illuminant, DSCs sensor, etc. All of these variables make the color measurements not comparable among different mobile devices and induce to systematical errors. That is why all the possibilities of the DIC for color-based control test have not yet been exploited.</p> 
+
+What is intended with this program is to solve some of this problems in order make color measurements between digital devices comparable.
+
 # Estructure of the program
 
 <p align="justify">The first part of the program displays the RGB values of the csv archives as shown on the next table:</p> 
@@ -19,7 +22,6 @@
 ||Measurements||References|
 |:-:|:-: |:-:|:-:|
 |<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table> <tr><th>R</th><th>G</th><th>B</th></tr><tr><td>151</td><td>159</td><td>83</td></tr><tr><td>159</td><td>144</td><td>85</td></tr><tr><td>157</td><td>141</td><td>54</td></tr><tr><td>171</td><td>172</td><td>151</td></tr><tr><td>133</td><td>125</td><td>96</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table><tr><th>R</th><th>G</th><th>B</th></tr><tr><td>202</td><td>182</td><td>128</td></tr><tr><td>204</td><td>172</td><td>126</td></tr><tr><td>207</td><td>166</td><td>105</td></tr><tr><td>228</td><td>208</td><td>178</td></tr><tr><td>163</td><td>140</td><td>116</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|
-
 
 <p align="justify">It also represents the error between the RGB measurement values and the reference in each RGB channel independently:</p> 
 
@@ -29,29 +31,17 @@
 
 <p align="justify">Then, the program generates two matrices two matrices to adjust the color values given by the device to the referenced ones by means of lineal regression, correcting the measurement through the standardization of the light wave composition of the light source used and its intensity. The correlation factor of the new RGB values and the referenced ones it is also displayed:</p> 
 
-
 |Correction Matrices||Corrected|
 |:-:|:-:|:-:|
 |<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160299029-70d6de61-ce08-440c-a603-23189d454407.jpg)</td></table>|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table><tr><th>R</th><th>G</th><th>B</th></tr><tr><td>151</td><td>159</td><td>83</td></tr><tr><td>159</td><td>144</td><td>85</td></tr><tr><td>157</td><td>141</td><td>54</td></tr><tr><td>171</td><td>172</td><td>151</td></tr><tr><td>133</td><td>125</td><td>96</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|
 
 <p align="justify">It can also represent each color measurement in the RGB color space:</p> 
 
+![9](https://user-images.githubusercontent.com/102466458/160299738-2193fc7b-82c9-4819-934e-6dcbe978061b.jpg)![10](https://user-images.githubusercontent.com/102466458/160299741-c3fc78e0-7491-4964-bda1-58947ab40856.jpg)![11](https://user-images.githubusercontent.com/102466458/160299743-d1d4610a-9ccf-4e1b-9f29-3e5a2f7dd80f.jpg)
 
-|R Channel Error|Green Channel Error|Blue Channel Error||
-|:-:|:-: |:-:|:-:|
-|<table></table>|<table></table>|<table></table>|<table><p align="justify">Figure 2. 3D representation of 55 colors samples in the RGB color space. The plots represent, from left to right, the RGB values of the color samples measured with a Smartphone, the referenced values and the corrected RGB values after the algorithm is applied.</p></table>|
+<p align="justify">The program includes the option to calculate the correlated color temperature (CCT) of a sample with its CIE XYZ values. It is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity. This method was described and developed by A. R. Robertson [1]. The correlated color temperature is usually represented in the CIE xy color space as shown in the next figure:</p> 
 
-
-
-
-
-
-
-
-
-<p align="justify">The program includes the option to calculate the correlated color temperature (CCT) of a sample with its CIE XYZ values. This method was described and developed by A. R. Robertson [1] The correlated color temperature is usually represented in the CIE xy color space as shown in Figure 3:</p> 
-
-
+![12](https://user-images.githubusercontent.com/102466458/160299846-cd657cf7-d5da-496e-b0ac-0bc6277f5db6.jpg)
 
 <p align="left">
   <img 
@@ -61,24 +51,14 @@
   >
 </p>
 
-
-
-
-
-**Figure 3.**<p align="justify">Correlated color temperature (CCT) is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity
-
-
-
-
-
 # References
-1.Robertson, A. R. (1968). Computation of correlated color temperature and distribution temperature. JOSA, 58(11), 1528-1535.
-
-
 1. De Marcos, S., Sanz-Vicente, I., López-Molinero, Á., Camacho-Aguayo,J., Dominguez, M., Cebrián, P., Navarro,. J., Martín-Barreiro, A. & Galbán, J. (2021). Enzymatic biosensors based on in-situ generation of gold nanomaterials: an alternative to classic enzymatic methods. Available online: https://www.seqa.es/ActualidadAnalitica/AA_75/015.pdf (accessed on 1 March 2022).
 2. Oliver, S., de Marcos, S., Sanz-Vicente, I., Cebolla, V., & Galbán, J. (2021). Direct minimally invasive enzymatic determination of tyramine in cheese using digital imaging. Analytica Chimica Acta, 1164, 338489.
 3. Sanz-Vicente, I., López-Molinero, Á., de Marcos, S., Navarro, J., Cebrián, P., Arruego, C., ... & Galbán, J. (2020). Smartphone-interrogated test supports for the enzymatic determination of putrescine and cadaverine in food. Analytical and bioanalytical chemistry, 412, 4261-4271.
 4. Fan, Y., Li, J., Guo, Y., Xie, L., & Zhang, G. (2021). Digital image colorimetry on smartphone for chemical analysis: A re-view. Measurement, 171, 108829.
+
+1.Robertson, A. R. (1968). Computation of correlated color temperature and distribution temperature. JOSA, 58(11), 1528-1535.
+
 5. Quesada-González, D., & Merkoçi, A. (2017). Mobile phone-based biosensing: An emerging “diagnostic and communication” technology. Biosensors and Bioelectronics, 92, 549-562.
 6. Kim, J., Leksikov, S., Thamjamrassri, P., Lee, U., & Suk, H. J. (2015, August). Crowdcolor: Crowdsourcing color perceptions using mobile devices. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (pp. 478-483).
 7. Ibraheem, N. A., Hasan, M. M., Khan, R. Z., & Mishra, P. K. (2012). Understanding color models: a review. ARPN Journal of science and technology, 2(3), 265-275.
