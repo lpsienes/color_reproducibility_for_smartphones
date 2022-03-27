@@ -1,6 +1,13 @@
 # Color reproducibility for smartphones
 
-![1](https://user-images.githubusercontent.com/102466458/160288119-be1b284a-785b-43bf-b8b7-8909af8c677e.jpg)
+
+<p align="center">
+  <img 
+    width="1000"
+    height="200"
+    src="https://user-images.githubusercontent.com/102466458/160293262-cd5b7fc7-4b30-4367-9569-f0f77baeaeda.jpg"
+  >
+</p>
 
 
 <p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[*Titulo*](). Python® was the programming language used to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut system.</p> 
@@ -15,12 +22,6 @@
 # Examples of the program
 
 <p align="justify">It can also represent each color measurement in the RGB color space:</p> 
-
-
-
-
-
-![image (1)](https://user-images.githubusercontent.com/102466458/160293241-bac2622b-52a6-4189-8230-b78361acae86.jpg)
 
 
 **Figure 2.**<p align="justify"> 3D representation of 55 colors samples in the RGB color space. The plots represent, from left to right, the RGB values of the color samples measured with a Smartphone, the referenced values and the corrected RGB values after the algorithm is applied.</p> 
