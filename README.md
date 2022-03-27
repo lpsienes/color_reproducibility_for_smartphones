@@ -12,15 +12,6 @@ This repository shows the algorithm and methodology implemented on the scientifi
 # Getting Started
 
 # Examples of the program
-The techniques exposed in this repository have been detailed in the scientific paper: [cita] where blablabla
-Here goes the description:
-
-You can describe the repository, i.e.:
-- You will find a folder named "Data" which has 4 .csv documents which collect the values RGB measured in the laboratory, etc.
-- In the folder named "Notebooks" you will find the jupyter notebooks where blablabla
-
-
-
 
 # References
 1. De Marcos, S., Sanz-Vicente, I., López-Molinero, Á., Camacho-Aguayo,J., Dominguez, M., Cebrián, P., Navarro,. J., Martín-Barreiro, A. & Galbán, J. (2021). Enzymatic biosensors based on in-situ generation of gold nanomaterials: an alternative to classic enzymatic methods. Available online: https://www.seqa.es/ActualidadAnalitica/AA_75/015.pdf (accessed on 1 March 2022).
