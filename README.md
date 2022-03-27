@@ -6,7 +6,7 @@ Python repository for color reproducibility techniques for smartphones.
 
 - [Getting Started](#-Getting-Started)
 - [Examples of the program](#-Examples-of-the-program)
-- [Go to Link to Binder](#-Link-to-Binder)
+- [Link to Binder](#-Link-to-Binder)
 - [References](#-References)
 
 
