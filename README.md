@@ -30,10 +30,7 @@
 
 |R Channel Error|Green Channel Error|Blue Channel Error|
 |:-:|:-: |:-:|
-|<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160362318-e16660fc-1578-4976-aaed-7c1283a229f6.jpg)
-     </td></table>|<table><tr><td>![4](https://user-images.githubusercontent.com/102466458/160362356-d0fb5033-d17a-49c8-8501-a597f7a7efe8.jpg)
-        </td></table>|<table><tr><td>  ![5](https://user-images.githubusercontent.com/102466458/160362388-642e2e37-73ab-4808-ade1-69edfd0acf31.jpg)
-  </td></table>|
+|<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160362318-e16660fc-1578-4976-aaed-7c1283a229f6.jpg)</td></table>|<table><tr><td>![4](https://user-images.githubusercontent.com/102466458/160362356-d0fb5033-d17a-49c8-8501-a597f7a7efe8.jpg)</td></table>|<table><tr><td>![5](https://user-images.githubusercontent.com/102466458/160362388-642e2e37-73ab-4808-ade1-69edfd0acf31.jpg)</td></table>|
 
 
 
