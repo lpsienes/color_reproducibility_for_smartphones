@@ -35,31 +35,17 @@
 
 |Correction Matrices||Corrected|
 |:-:|:-:|:-:|
-|<table><tr><td>![6](https://user-images.githubusercontent.com/102466458/160364802-7e58dd07-bd63-4c82-958e-1f1a1b52c860.jpg)</td></table>|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table><tr><th>R</th><th>G</th><th>B</th></tr><tr><td>151</td><td>159</td><td>83</td></tr><tr><td>159</td><td>144</td><td>85</td></tr><tr><td>157</td><td>141</td><td>54</td></tr><tr><td>171</td><td>172</td><td>151</td></tr><tr><td>133</td><td>125</td><td>96</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|<table><tr><td>![6](https://user-images.githubusercontent.com/102466458/160364802-7e58dd07-bd63-4c82-958e-1f1a1b52c860.jpg)</td></table>|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table><tr><th>R</th><th>G</th><th>B</th></tr><tr><td>190</td><td>168</td><td>112</td></tr><tr><td>192</td><td>155</td><td>111</td></tr><tr><td>192</td><td>148</td><td>88</td></tr><tr><td>208</td><td>191</td><td>166</td></tr><tr><td>161</td><td>137</td><td>111</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|
 
 <p align="justify">Then, three plots of the RGB values (Sample, Reference and Prediction) will be displayer on the RGB color space:</p> 
 
-![9](https://user-images.githubusercontent.com/102466458/160299738-2193fc7b-82c9-4819-934e-6dcbe978061b.jpg)![10](https://user-images.githubusercontent.com/102466458/160299741-c3fc78e0-7491-4964-bda1-58947ab40856.jpg)![11](https://user-images.githubusercontent.com/102466458/160299743-d1d4610a-9ccf-4e1b-9f29-3e5a2f7dd80f.jpg)
+![8](https://user-images.githubusercontent.com/102466458/160365350-c52ede42-6db7-40a5-9724-3c7ff262946c.jpg)![8](https://user-images.githubusercontent.com/102466458/160365350-c52ede42-6db7-40a5-9724-3c7ff262946c.jpg)![8](https://user-images.githubusercontent.com/102466458/160365350-c52ede42-6db7-40a5-9724-3c7ff262946c.jpg)
+
+
+
+![8](https://user-images.githubusercontent.com/102466458/160365350-c52ede42-6db7-40a5-9724-3c7ff262946c.jpg)
+
+
 
 <p align="justify">The last part of the program includes the option to calculate the correlated color temperature (CCT) of a sample introducing its CIE XYZ manually.  The CCT is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity. This method was described and developed by A. R. Robertson [9]. The correlated color temperature is usually represented in the CIE xy color space as shown in the next figure:</p> 
 
