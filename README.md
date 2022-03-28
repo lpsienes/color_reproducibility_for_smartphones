@@ -41,6 +41,15 @@
 
 ![8](https://user-images.githubusercontent.com/102466458/160366554-2f19f0dd-6288-41be-afa4-c3cf566cc259.jpg)![9](https://user-images.githubusercontent.com/102466458/160366537-7a18af38-dbbb-41e4-b75c-2b7e4796f9ea.jpg)![10](https://user-images.githubusercontent.com/102466458/160366581-83f2d041-4a86-4825-b950-23196cd51574.jpg)
 
+|Prediction R Channel Error|Prediction Green Channel Error| Prediction Blue Channel Error|
+|:-:|:-: |:-:|
+|<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160363629-b002ac38-8590-453e-9f75-84dfa43a7d1f.jpg)</td></table>|<table><tr><td>![4](https://user-images.githubusercontent.com/102466458/160363640-8adef15f-0716-4b43-be97-41caa651badf.jpg)</td></table>|<table><tr><td>![5](https://user-images.githubusercontent.com/102466458/160363648-ac000238-9c3e-4013-8730-bf98ada82b95.jpg)</td></table>|
+
+
+
+
+
+
 <p align="justify">The last part of the program includes the option to calculate the correlated color temperature (CCT) of a sample introducing its CIE XYZ manually.  The CCT is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity. This method was described and developed by A. R. Robertson [9]. The correlated color temperature is usually represented in the CIE xy color space as shown in the next figure:</p> 
 
 ![14](https://user-images.githubusercontent.com/102466458/160366713-3be869b6-1b8c-4a1f-94ab-dfe9044c7cfd.jpg)
