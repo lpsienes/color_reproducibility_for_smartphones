@@ -39,12 +39,10 @@
 
 <p align="justify">Then, three plots of the RGB values (Sample, Reference and Prediction) will be displayer on the RGB color space:</p> 
 
-![8](https://user-images.githubusercontent.com/102466458/160365350-c52ede42-6db7-40a5-9724-3c7ff262946c.jpg)![8](https://user-images.githubusercontent.com/102466458/160365350-c52ede42-6db7-40a5-9724-3c7ff262946c.jpg)![8](https://user-images.githubusercontent.com/102466458/160365350-c52ede42-6db7-40a5-9724-3c7ff262946c.jpg)
-
-![10](https://user-images.githubusercontent.com/102466458/160365770-abeabbbe-b8c4-4fdd-a009-544fabeec172.jpg)![10](https://user-images.githubusercontent.com/102466458/160365770-abeabbbe-b8c4-4fdd-a009-544fabeec172.jpg)![10](https://user-images.githubusercontent.com/102466458/160365770-abeabbbe-b8c4-4fdd-a009-544fabeec172.jpg)
 
 
-![9](https://user-images.githubusercontent.com/102466458/160365569-af794eb1-64d4-4429-92ad-1ce6ba1aacaf.jpg)![9](https://user-images.githubusercontent.com/102466458/160365588-09f7ce97-3eb1-4f84-969a-fd9808df89b5.jpg)![9](https://user-images.githubusercontent.com/102466458/160365578-11ce2962-7b0b-4cfa-9eba-852364362959.jpg)
+![8](https://user-images.githubusercontent.com/102466458/160366033-133d69be-5070-4786-a7a9-13435f37391b.jpg)![9](https://user-images.githubusercontent.com/102466458/160366048-e9544ee0-76c2-48d8-8d15-69cd0792d8bd.jpg)![10](https://user-images.githubusercontent.com/102466458/160366061-f78eb18b-6884-499f-ad7a-61214a2eddb0.jpg)
+
 
 
 
