@@ -24,13 +24,20 @@
 
 ||Measurements||References|
 |:-:|:-: |:-:|:-:|
-|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table> <tr><th>R</th><th>G</th><th>B</th></tr><tr><td>151</td><td>159</td><td>83</td></tr><tr><td>159</td><td>144</td><td>85</td></tr><tr><td>157</td><td>141</td><td>54</td></tr><tr><td>171</td><td>172</td><td>151</td></tr><tr><td>133</td><td>125</td><td>96</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table><tr><th>R</th><th>G</th><th>B</th></tr><tr><td>202</td><td>182</td><td>128</td></tr><tr><td>204</td><td>172</td><td>126</td></tr><tr><td>207</td><td>166</td><td>105</td></tr><tr><td>228</td><td>208</td><td>178</td></tr><tr><td>163</td><td>140</td><td>116</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|
+|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table> <tr><th>R</th><th>G</th><th>B</th></tr><tr><td>151 </td><td>159</td><td>83</td></tr><tr><td>159</td><td>144</td><td>85</td></tr><tr><td>157</td><td>141</td><td>55</td></tr><tr><td>171</td><td>172</td><td>151</td></tr><tr><td>134</td><td>125</td><td>96</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table><tr><th>R</th><th>G</th><th>B</th></tr><tr><td>202</td><td>182</td><td>128</td></tr><tr><td>204</td><td>172</td><td>126</td></tr><tr><td>207</td><td>166</td><td>105</td></tr><tr><td>228</td><td>208</td><td>178</td></tr><tr><td>163</td><td>140</td><td>116</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|
 
 <p align="justify">After these, the error between the RGB measurement values and the reference in each RGB channel independently will be displayed:</p> 
 
 |R Channel Error|Green Channel Error|Blue Channel Error|
 |:-:|:-: |:-:|
-|<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160297824-75edef19-7dc1-403d-aa82-e13a1f1de4d1.jpg)</td></table>|<table><tr><td>![4](https://user-images.githubusercontent.com/102466458/160297839-563a5771-da71-4445-a170-f79d2979bccf.jpg)</td></table>|<table><tr><td>![5](https://user-images.githubusercontent.com/102466458/160297853-cb1f5e14-0645-4630-afeb-d5e9bfe1a3e8.jpg)</td></table>|
+|<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160362318-e16660fc-1578-4976-aaed-7c1283a229f6.jpg)
+     </td></table>|<table><tr><td>![4](https://user-images.githubusercontent.com/102466458/160362356-d0fb5033-d17a-49c8-8501-a597f7a7efe8.jpg)
+        </td></table>|<table><tr><td>  ![5](https://user-images.githubusercontent.com/102466458/160362388-642e2e37-73ab-4808-ade1-69edfd0acf31.jpg)
+  </td></table>|
+
+
+
+
 
 
 
