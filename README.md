@@ -17,7 +17,6 @@
 
 <p align="justify">To work with this program, two csv files are necessary: one with the referenced RGB values of the samples and another with the RGB measurements taken with our device.Once the files are uploaded, all you have to do is run the code and collect the data (Make sure that each sample corresponds to the reference values and that there are the same number of samples in both csvs).</p> 
 
-
 # Estructure of the program
 
 <p align="justify">The first part of the program is focused on the comparision of the devices measurements with the reference ones. The RGB values of both csv archives will be shown as so:</p> 
@@ -32,26 +31,12 @@
 |:-:|:-: |:-:|
 |<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160363629-b002ac38-8590-453e-9f75-84dfa43a7d1f.jpg)</td></table>|<table><tr><td>![4](https://user-images.githubusercontent.com/102466458/160363640-8adef15f-0716-4b43-be97-41caa651badf.jpg)</td></table>|<table><tr><td>![5](https://user-images.githubusercontent.com/102466458/160363648-ac000238-9c3e-4013-8730-bf98ada82b95.jpg)</td></table>|
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <p align="justify">The second part of the program is centered on the correction of the devices RGB values.First, the program generates two matrices to adjust the color values given by the device to the referenced ones by means of lineal regression, correcting the measurement through the standardization of the light wave composition of the light source used and its intensity. The correlation factor of the new RGB values and the referenced ones it is also displayed:</p> 
 
 |Correction Matrices||Corrected|
 |:-:|:-:|:-:|
-|<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160299029-70d6de61-ce08-440c-a603-23189d454407.jpg)</td></table>|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table><tr><th>R</th><th>G</th><th>B</th></tr><tr><td>151</td><td>159</td><td>83</td></tr><tr><td>159</td><td>144</td><td>85</td></tr><tr><td>157</td><td>141</td><td>54</td></tr><tr><td>171</td><td>172</td><td>151</td></tr><tr><td>133</td><td>125</td><td>96</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|
+|<table><tr><td>![6](https://user-images.githubusercontent.com/102466458/160363947-32219df5-23a5-4cc8-b7a1-edd003cf66b4.jpg)</td></table>|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table><tr><th>R</th><th>G</th><th>B</th></tr><tr><td>151</td><td>159</td><td>83</td></tr><tr><td>159</td><td>144</td><td>85</td></tr><tr><td>157</td><td>141</td><td>54</td></tr><tr><td>171</td><td>172</td><td>151</td></tr><tr><td>133</td><td>125</td><td>96</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|
+
 
 
 
