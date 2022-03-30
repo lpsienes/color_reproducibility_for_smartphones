@@ -33,9 +33,10 @@
 
 <p align="justify">The second part of the program is centered on the correction of the devices RGB values.First, the program generates two matrices to adjust the color values given by the device to the referenced ones by means of lineal regression, correcting the measurement through the standardization of the light wave composition of the light source used and its intensity. The correlation factor of the new RGB values and the referenced ones it is also displayed:</p> 
 
+
 |Correction Matrices||Corrected|
 |:-:|:-:|:-:|
-|<table><tr><td>![6](https://user-images.githubusercontent.com/102466458/160783338-9cdb10e6-ff83-47b4-86a6-b40d02a4684c.jpg)</td></table>|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table><tr><th>R</th><th>G</th><th>B</th></tr><tr><td>190</td><td>168</td><td>112</td></tr><tr><td>192</td><td>155</td><td>111</td></tr><tr><td>192</td><td>148</td><td>88</td></tr><tr><td>208</td><td>191</td><td>166</td></tr><tr><td>161</td><td>137</td><td>111</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|
+|<table><tr><td>![6](https://user-images.githubusercontent.com/102466458/160783461-150c91b7-9551-4464-b628-6685be5a269a.jpg)</td></table>|<table><tr><td>n</td></tr><tr><td>0</td></tr><tr><td>1</td></tr><tr><td>2</td></tr><tr><td>3</td></tr><tr><td>4</td></tr><tr><td>...</td></tr></table>|<table><tr><th>R</th><th>G</th><th>B</th></tr><tr><td>190</td><td>168</td><td>112</td></tr><tr><td>192</td><td>155</td><td>111</td></tr><tr><td>192</td><td>148</td><td>88</td></tr><tr><td>208</td><td>191</td><td>166</td></tr><tr><td>161</td><td>137</td><td>111</td></tr><tr><td>...</td><td>...</td><td>...</td></tr></table>|
 
 
 <p align="justify">Then, three plots of the RGB values (Sample, Reference and Prediction) will be displayer on the RGB color space:</p> 
