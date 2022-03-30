@@ -27,10 +27,17 @@
 
 <p align="justify">After these, the error between the RGB measurement values and the reference in each RGB channel independently will be displayed:</p> 
 
+
+
 |R Channel Error|
 |:-:|
 |<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160783791-3e090645-a051-4f7f-94a9-36255ac59401.jpg)</td></table>|
-
+|G Channel Error|
+|:-:|
+|<table><tr><td>![4](https://user-images.githubusercontent.com/102466458/160783988-675c4875-5605-47f9-9f32-2b2cace88200.jpg)</td></table>|
+|B Channel Error|
+|:-:|
+|<table><tr><td>![5](https://user-images.githubusercontent.com/102466458/160784053-f97eb5ba-6559-470f-b63e-aae8099919da.jpg)</td></table>|
 
 <p align="justify">The second part of the program is centered on the correction of the devices RGB values.First, the program generates two matrices to adjust the color values given by the device to the referenced ones by means of lineal regression, correcting the measurement through the standardization of the light wave composition of the light source used and its intensity. The correlation factor of the new RGB values and the referenced ones it is also displayed:</p> 
 
