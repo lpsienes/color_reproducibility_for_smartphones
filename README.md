@@ -27,17 +27,7 @@
 
 <p align="justify">After these, the error between the RGB measurement values and the reference in each RGB channel independently will be displayed:</p> 
 
-
-
-|R Channel Error|
-|:-:|
-|<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160783791-3e090645-a051-4f7f-94a9-36255ac59401.jpg)</td></table>|
-|G Channel Error|
-|:-:|
-|<table><tr><td>![4](https://user-images.githubusercontent.com/102466458/160783988-675c4875-5605-47f9-9f32-2b2cace88200.jpg)</td></table>|
-|B Channel Error|
-|:-:|
-|<table><tr><td>![5](https://user-images.githubusercontent.com/102466458/160784053-f97eb5ba-6559-470f-b63e-aae8099919da.jpg)</td></table>|
+![3](https://user-images.githubusercontent.com/102466458/160783791-3e090645-a051-4f7f-94a9-36255ac59401.jpg)![4](https://user-images.githubusercontent.com/102466458/160783988-675c4875-5605-47f9-9f32-2b2cace88200.jpg)![5](https://user-images.githubusercontent.com/102466458/160784053-f97eb5ba-6559-470f-b63e-aae8099919da.jpg)
 
 <p align="justify">The second part of the program is centered on the correction of the devices RGB values.First, the program generates two matrices to adjust the color values given by the device to the referenced ones by means of lineal regression, correcting the measurement through the standardization of the light wave composition of the light source used and its intensity. The correlation factor of the new RGB values and the referenced ones it is also displayed:</p> 
 
@@ -53,14 +43,8 @@
 
 <p align="justify">After these, the error between the Prediction RGB measurement values and the reference in each RGB channel independently will be displayed:</p>
 
-|Prediction R Channel Error|Prediction Green Channel Error| Prediction Blue Channel Error|
-|:-:|:-: |:-:|
-|<table><tr><td>![3](https://user-images.githubusercontent.com/102466458/160363629-b002ac38-8590-453e-9f75-84dfa43a7d1f.jpg)</td></table>|<table><tr><td>![4](https://user-images.githubusercontent.com/102466458/160363640-8adef15f-0716-4b43-be97-41caa651badf.jpg)</td></table>|<table><tr><td>![5](https://user-images.githubusercontent.com/102466458/160363648-ac000238-9c3e-4013-8730-bf98ada82b95.jpg)</td></table>|
 
-
-
-
-
+![11](https://user-images.githubusercontent.com/102466458/160784860-709f4453-92ec-4021-beed-00d95709761b.jpg)![12](https://user-images.githubusercontent.com/102466458/160784871-404c93b4-9918-48c6-a452-a94d487ec40b.jpg)![13](https://user-images.githubusercontent.com/102466458/160784876-44bd2bea-267b-4e6d-ac65-b76905a4fd1e.jpg)
 
 <p align="justify">The last part of the program includes the option to calculate the correlated color temperature (CCT) of a sample introducing its CIE XYZ manually.  The CCT is a measure of light source color appearance defined by the proximity of the light source's chromaticity coordinates to the blackbody locus, as a single number rather than the two required to specify a chromaticity. This method was described and developed by A. R. Robertson [9]. The correlated color temperature is usually represented in the CIE xy color space as shown in the next figure:</p> 
 
