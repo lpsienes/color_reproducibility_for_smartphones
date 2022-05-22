@@ -2,7 +2,7 @@
 
 ![image (2)](https://user-images.githubusercontent.com/102466458/160293696-27c1b33d-35d0-4a08-823e-1acd7b894274.jpg)
 
-<p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[Solving Color Reproducibility between Digital Devices: A Robust Approach of Smartphones Color Management for Chemical (Bio)Sensors](https://www.mdpi.com/2079-6374/12/5/341). Python® programming language was used in order to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut so it can be applied to (bio)chemical quantitative determinations, making the measurements comparable between devices.</p> 
+<p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:[#Solving Color Reproducibility between Digital Devices: A Robust Approach of Smartphones Color Management for Chemical (Bio)Sensors#](https://www.mdpi.com/2079-6374/12/5/341). Python® programming language was used in order to develop this algorithm. Its main purpose is to fit the differences between the RGB measurements of a device with their counterpart RGB referenced color gamut so it can be applied to (bio)chemical quantitative determinations, making the measurements comparable between devices.</p> 
 
 - [Getting Started](#Getting-Started)
 - [Estructure of the program](#Estructure-of-the-program)
