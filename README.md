@@ -1,5 +1,7 @@
 # Color reproducibility for smartphones
 
+<img width="435" alt="logos" src="https://user-images.githubusercontent.com/102466458/210554478-8c9354cf-ac65-41ac-a1d8-1b9d7b83bdd7.PNG">
+
 ![image (2)](https://user-images.githubusercontent.com/102466458/160293696-27c1b33d-35d0-4a08-823e-1acd7b894274.jpg)
 
 <p align="justify">This repository shows the algorithm and methodology implemented on the scientific article:
