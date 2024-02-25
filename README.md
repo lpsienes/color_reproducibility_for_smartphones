@@ -67,16 +67,13 @@ Python® programming language was used in order to develop this algorithm. Its m
 # References
 1. [Quesada-González, D., & Merkoçi, A. (2017). Mobile phone-based biosensing: An emerging “diagnostic and communication” technology. Biosensors and Bioelectronics, 92, 549-562.](https://www.sciencedirect.com/science/article/pii/S095656631631082X)
 2. [Kim, J., Leksikov, S., Thamjamrassri, P., Lee, U., & Suk, H. J. (2015, August). Crowdcolor: Crowdsourcing color perceptions using mobile devices. In Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services (pp. 478-483)](https://dl.acm.org/doi/abs/10.1145/2785830.2785887)
-3. [De Marcos, S., Sanz-Vicente, I., López-Molinero, Á., Camacho-Aguayo,J., Dominguez, M., Cebrián, P., Navarro,. J., Martín-Barreiro, A. & Galbán, J. (2021). Enzymatic biosensors based on in-situ generation of gold nanomaterials: an alternative to classic enzymatic methods.](https://www.seqa.es/ActualidadAnalitica/AA_75/015.pdf)
-4. [Oliver, S., de Marcos, S., Sanz-Vicente, I., Cebolla, V., & Galbán, J. (2021). Direct minimally invasive enzymatic determination of tyramine in cheese using digital imaging. Analytica Chimica Acta, 1164, 338489.](https://www.sciencedirect.com/science/article/pii/S0003267021003159)
-5. [Sanz-Vicente, I., López-Molinero, Á., de Marcos, S., Navarro, J., Cebrián, P., Arruego, C., ... & Galbán, J. (2020). Smartphone-interrogated test supports for the enzymatic determination of putrescine and cadaverine in food. Analytical and bioanalytical chemistry, 412, 4261-4271.](https://link.springer.com/article/10.1007/s00216-020-02677-7)
-6. [Fan, Y., Li, J., Guo, Y., Xie, L., & Zhang, G. (2021). Digital image colorimetry on smartphone for chemical analysis: A re-view. Measurement, 171, 108829.](https://www.sciencedirect.com/science/article/pii/S0263224120313221)
-7. [International Color Consortium. (2004). Image technology colour management-Architecture, profile format, and data structure. Specification ICC. 1: 2004-10 (Profile version 4.2. 0.0)](https://color.org/ICC1v42_2006-05.pdf)
+3. [Oliver, S., de Marcos, S., Sanz-Vicente, I., Cebolla, V., & Galbán, J. (2021). Direct minimally invasive enzymatic determination of tyramine in cheese using digital imaging. Analytica Chimica Acta, 1164, 338489.](https://www.sciencedirect.com/science/article/pii/S0003267021003159)
+4. [Sanz-Vicente, I., López-Molinero, Á., de Marcos, S., Navarro, J., Cebrián, P., Arruego, C., ... & Galbán, J. (2020). Smartphone-interrogated test supports for the enzymatic determination of putrescine and cadaverine in food. Analytical and bioanalytical chemistry, 412, 4261-4271.](https://link.springer.com/article/10.1007/s00216-020-02677-7)
+5. [Fan, Y., Li, J., Guo, Y., Xie, L., & Zhang, G. (2021). Digital image colorimetry on smartphone for chemical analysis: A re-view. Measurement, 171, 108829.](https://www.sciencedirect.com/science/article/pii/S0263224120313221)
+6. [International Color Consortium. (2004). Image technology colour management-Architecture, profile format, and data structure. Specification ICC. 1: 2004-10 (Profile version 4.2. 0.0)](https://color.org/ICC1v42_2006-05.pdf)
 
-8. Wyszecki, G., & Stiles, W. S. (1982). Color science: Concepts and Methods, Quantitative Data and Formulae (Second Edition). New York: Wiley.11-27,51-66,83-93,119-154,429-439.
-
-9. [Robertson, A. R. (1968). Computation of correlated color temperature and distribution temperature. JOSA, 58(11), 1528-1535](https://opg.optica.org/josa/fulltext.cfm?uri=josa-58-11-1528&id=53553)
+7. [Robertson, A. R. (1968). Computation of correlated color temperature and distribution temperature. JOSA, 58(11), 1528-1535](https://opg.optica.org/josa/fulltext.cfm?uri=josa-58-11-1528&id=53553)
 
 
-# Link to Binder
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lpsienes/color_reproducibility_for_smartphones/main)
+# Code
+The Jupyter notebook "RGB_Matrix_Color_Correction_and_Color_Temperature.ipynb" document shows the procedure followed to obtain the results present in this paper.
