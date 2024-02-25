@@ -77,3 +77,5 @@ Python® programming language was used in order to develop this algorithm. Its m
 
 # Code
 The Jupyter notebook "RGB_Matrix_Color_Correction_and_Color_Temperature.ipynb" document shows the procedure followed to obtain the results present in this paper.
+https://colab.research.google.com/github/lpsienes/color_reproducibility_for_smartphones/blob/main/RGB_Matrix_Color_Correction_and_Color_Temperature.ipynb
+
